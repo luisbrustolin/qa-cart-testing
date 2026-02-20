@@ -1,0 +1,7 @@
+ID,Title,Precondition,Steps,Expected Result,Priority,Status
+TC001,Adicionar produto ao carrinho,Usuário na página do produto,Clicar em "Adicionar ao carrinho",Produto deve aparecer no carrinho,Alta,Pass
+TC002,Remover produto do carrinho,Produto já no carrinho,Clicar em remover,Produto deve ser removido,Média,Pass
+TC003,Atualizar quantidade,Produto no carrinho,Alterar quantidade para 3,Carrinho deve atualizar total,Alta,Pass
+TC004,Carrinho vazio,Nenhum produto adicionado,Acessar carrinho,Exibir mensagem de carrinho vazio,Média,Pass
+TC005,Adicionar múltiplos produtos,Usuário navegando,Adicionar 2 produtos diferentes,Carrinho deve somar corretamente,Alta,Pass
+TC006,Quantidade negativa,Produto no carrinho,Inserir quantidade -1,Sistema deve bloquear,Baixa,Fail
